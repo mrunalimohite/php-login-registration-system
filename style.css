@@ -53,7 +53,7 @@ button{
     cursor: pointer;
     font-size: 16px;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
     transform: 0.5s ease;
 }
@@ -84,11 +84,33 @@ p a:hover{
     text-align: center;
     margin-bottom: 20px;
 }
+.success-msg{
+    padding: 12px;
+    background: #f8d7da;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #5bee8f;
+    text-align: center;
+    margin-bottom: 20px;
+}
 .box p{
     font-size: 22px;
+    margin: 25px 0;
+}
+.box p span{
+    color: #7494ec;
 }
 .box button{
     display: block;
     width: 300px;
     margin: 0 auto;
 }
+.box h1{
+    font-size: 35px;
+    color: #333;
+    margin: 20px 0;
+}
+.box h1 span{
+    color: #5a7bd8;
+}
+
